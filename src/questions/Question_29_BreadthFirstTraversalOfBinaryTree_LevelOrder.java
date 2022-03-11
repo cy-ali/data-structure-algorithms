@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class Questions_29_BreadthFirstTraversalOfBinaryTree_LevelOrder {
+public class Question_29_BreadthFirstTraversalOfBinaryTree_LevelOrder {
     public static class TreeNode {
         int val;
         TreeNode left;
