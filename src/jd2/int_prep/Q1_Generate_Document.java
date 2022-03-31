@@ -29,20 +29,16 @@ public class Q1_Generate_Document {
     public static Boolean generateDocument2(String characters, String document) {
 
         int[] charArr = new int[127];
-
         for (char c : characters.toCharArray()) {
             charArr[c]++;
         }
-
         for (char c : document.toCharArray()) {
             if (charArr[c] < 1) {
                 return false;
             }
             charArr[c]--;
         }
-
         return true;
-
     }
 
 }
